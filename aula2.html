@@ -1,10 +1,70 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Store</title>
+
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 2px solid #fb7900;
+        }
+
+        th, td {
+            border: 1px solid #fb7900;
+            padding: 8px 16px;
+        }
+
+        figure img,
+        aside img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            border: none;
+            border-radius: 4px;
+            background-color: #fb7900;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #d96600;
+        }
+
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        form input {
+            padding: 6px;
+            margin-top: 4px;
+        }
+    </style>
+
 </head>
+
 <body>
 
     <header>
@@ -40,22 +100,65 @@
 
         <aside>
 
-            <h3>Veja também</h3>
-            <p>Confira nossas promoções:</p>
-            <a href=https://cloudfront-us-east-1.images.arcpublishing.com/estadao/SZIPO45XAZH7XI7NPB4FX3T6EI.jpg>
-                <img src="https://via.placeholder.com/300" alt="TIGER" width="300" height="200" title="Clique para ver a promoção">
-
+            <h3>Veja também:</h3>
+            <p>SURPRESA:</p>
+            <a href="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/SZIPO45XAZH7XI7NPB4FX3T6EI.jpg">
+                <img src="https://via.placeholder.com/300" alt="Imagem promocional" width="300" height="200" title="Clique para ver a promoção">
             </a>
 
         </aside>
 
         <figure>
 
-            <img src = "vitornhoque.jpg" alt = " VITOR ROQUE " >
-            <figuration> VITOR ROQUE </figuration>
+            <img src="vitornhoque.jpg" alt="Foto do produto">
+            <figcaption>Legenda da imagem</figcaption>
 
         </figure>
-        
+
+        <table>
+            <tr>
+
+                <th>PRODUTO</th>
+                <th>PREÇO</th>
+                <th>ESTOQUE</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Mouse</td>
+                <td>R$ 80</td>
+                <td>10</td>
+
+            </tr>
+
+        </table>
+
+        <div>
+
+            <button type="button">COMPRAR</button>
+            <button type="button">SAIBA MAIS</button>
+            <button type="button">ENVIAR</button>
+            <button type="button">CANCELAR</button>
+
+        </div>
+
+        <section>
+
+            <h2>Cadastre-se</h2>
+
+            <form>
+
+                <label> NOME </label>
+                <input type = "TEXT" >
+
+                <label> EMAIL </label>
+                <input type = "email" >
+
+            </form>
+
+        </section>
+
     </main>
 
 </body>
