@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> theus Store </title>
+
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 2px solid #fb7900;
+        }
+
+        th, td {
+            border: 1px solid #fb7900;
+            padding: 8px 16px;
+        }
+
+        figure img,
+        aside img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            border: none;
+            border-radius: 4px;
+            background-color: #fb7900;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #d96600;
+        }
+
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        form input,
+        form select,
+        form textarea {
+            padding: 6px;
+            margin-top: 4px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1> Theus Store - <a href="https://google.com" title="Acesse o Google">Google</a></h1>
+        <p> SEUS PRODUTOS TECNOLOGOS ESTAO AQUI! </p>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Início</a> |
+        <a href="produtos.html">Produtos</a> |
+        <a href="contato.html">Contato</a>
+
+    </nav>
+
+    <main>
+
+        <section>
+
+            <h2> PRODUTOS DISPONIVEIS NO GOOGLE </h2>
+            <p> CONHEÇA MAIS OS NOSSOS PRODUTOS <a href="https://google.com" target="_blank">Google</a>.</p>
+
+        </section>
+
+        <article>
+
+            <h2> NEW compiuter lançado</h2>
+            <p> novidades nos equipamentos: <a href="https://google.com" target="_blank">Google</a>.</p>
+
+        </article>
+
+        <aside>
+
+            <h3>Veja também:</h3>
+            <p>SURPRESA:</p>
+            <a href="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/SZIPO45XAZH7XI7NPB4FX3T6EI.jpg">
+                <img src="https://via.placeholder.com/300" alt="Imagem promocional" width="300" height="200" title="Clique para ver a promoção">
+            </a>
+
+        </aside>
+
+        <figure>
+
+            <img src="vitornhoque.jpg" alt="Foto do produto">
+            <figcaption>Legenda da imagem</figcaption>
+
+        </figure>
+
+        <table>
+            <tr>
+
+                <th>PRODUTO</th>
+                <th>PRECO</th>
+                <th>ESTOQUE</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Mouse</td>
+                <td>R$ 80</td>
+                <td>10</td>
+
+            </tr>
+
+        </table>
+
+        <div>
+
+            <button type="button">COMPRAR</button>
+            <button type="button">SAIBA MAIS</button>
+            <button type="button">ENVIAR</button>
+            <button type="button">CANCELAR</button>
+
+        </div>
+
+        <section>
+
+            <h2> SE CADASTRE </h2>
+
+            <form>
+
+                <label> NOME </label>
+                <input type = "TEXT" >
+
+                <label> EMAIL </label>
+                <input type = "email" >
+
+                <label> INTERESSES </label>
+                <select>
+                    <option value="notebooks">Notebooks</option>
+                    <option value="mouses">Mouses</option>
+                    <option value="teclados">Teclados</option>
+                    <option value="monitores">Monitores</option>
+                </select>
+
+                <label> METODOS PARA PAGAR: </label>
+
+                <input type = "radio" id = "pix" name = "pagamento" value = "pix">
+                <label for = "pix"> Pix </label>
+
+                <input type = "radio" id = "cartao" name = "pagamento" value = "cartao">
+                <label for = "cartao"> Cartao </label>
+
+                <input type = "radio" id = "boleto" name = "pagamento" value = "boleto">
+                <label for = "boleto"> Boleto </label>
+
+                <label> QUANTIDADE DE DINHEIRO DISPONIVEL (R$ 0 - R$ 100000 ) </label>
+                <input type = "range" min = "50" max = "5000" step = "50">
+
+                <label> COMPROVANTE </label>
+                <input type = "file">
+
+                <label> AJUDA </label>
+                <textarea rows = "4" cols = "30"></textarea>
+
+                <label>
+                    <input type = "checkbox">
+                    QUERO RECEBER EMAILS , SOBRE A LOJA
+                </label>
+
+                <label>
+                    <input type = "checkbox">
+                    LI E ACEITO OS TERMOS DE USO 
+                </label>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
